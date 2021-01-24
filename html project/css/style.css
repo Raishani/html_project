@@ -4,8 +4,8 @@ body{
 }
 header{
     background-color: red;
-    width: 1550px;
-    height: 150px;
+    width: 100%;
+    height: 140px;
     margin: 0px;
     padding:0px
 }
@@ -17,12 +17,34 @@ header{
 }
 main{
     background-color: grey;
-    width: 1550px;
+    width: 100%;
     height: 800px;
     margin: 0px;
     padding:0px
 }
-
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    height:36px;
+    line-height: 36px;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+li{
+    float:right;
+    border-right: 1px solid #156ee2;
+}
+.navi{
+    display:block;
+    padding: 0px 28px;
+    color:#ffffff;
+    text-decoration: none;
+}
+.navi:hover, .active a{
+    background-color: #156ee2;
+}
 .photos{
     width: 400px;
     height: 200px;
