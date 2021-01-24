@@ -1,0 +1,19 @@
+.photos{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+#div1{
+    vertical-align: middle;
+}
+.photodiv{
+    display:inline-block;
+}
+#marque{
+    width: 100%;
+    line-height: 30px;
+    scroll-behavior: auto;
+    behavior: alternate;
+    background-color:lightpink;
+    size:40px;
+}
